@@ -1,9 +1,9 @@
 print("Enter the range (Natural numbers only)")
-uper_limit=int(input("From: "))
+upper_limit=int(input("From: "))
 lower_limit=int(input("To: "))
 total_p_no = 0
 total_c_no = 0
-for r in range(uper_limit, lower_limit):
+for r in range(upper_limit, lower_limit):
     if r < 1:
         print("Enter a valid range")
         break
