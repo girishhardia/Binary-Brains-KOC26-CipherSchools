@@ -8,7 +8,7 @@ for r in range(uper_limit, lower_limit):
         print("Enter a valid range")
         break
     elif r==1:
-        print("1 is called a unique number. Its nither a prime or composite number")
+        print("1 is called a unique number. Its neither a prime or composite number")
     for n in range(2, r):
         if (r%n)==0:
             print(r,"is composite")
